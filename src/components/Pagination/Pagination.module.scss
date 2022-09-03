@@ -1,0 +1,28 @@
+.root {
+  .ul {
+    display: flex;
+    align-items: center;
+    li {
+      border: 1px solid #fe5f1e;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 18px;
+      cursor: pointer;
+      color: #fe5f1e;
+      transition: 0.3s;
+      margin-right: 20PX;
+      &:hover {
+        color: white;
+        background: #fe5f1e;
+      }
+    }
+  }
+}
+.active {
+  color: white !important;
+  background: #fe5f1e;
+}
